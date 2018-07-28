@@ -1,0 +1,2 @@
+/usr/bin/ar cr libokvis_cv.a  CMakeFiles/okvis_cv.dir/src/CameraBase.cpp.o CMakeFiles/okvis_cv.dir/src/NCameraSystem.cpp.o
+/usr/bin/ranlib libokvis_cv.a

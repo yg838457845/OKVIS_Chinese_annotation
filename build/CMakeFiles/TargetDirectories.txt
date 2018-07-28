@@ -1,0 +1,14 @@
+/home/dnc/okvis/build/CMakeFiles/brisk_external.dir
+/home/dnc/okvis/build/CMakeFiles/ceres_external.dir
+/home/dnc/okvis/build/CMakeFiles/okvis_app_synchronous.dir
+/home/dnc/okvis/build/okvis_ceres/CMakeFiles/okvis_ceres.dir
+/home/dnc/okvis/build/okvis_common/CMakeFiles/okvis_common.dir
+/home/dnc/okvis/build/okvis_cv/CMakeFiles/okvis_cv.dir
+/home/dnc/okvis/build/okvis_frontend/CMakeFiles/okvis_frontend.dir
+/home/dnc/okvis/build/okvis_kinematics/CMakeFiles/okvis_kinematics.dir
+/home/dnc/okvis/build/okvis_matcher/CMakeFiles/okvis_matcher.dir
+/home/dnc/okvis/build/okvis_multisensor_processing/CMakeFiles/okvis_multisensor_processing.dir
+/home/dnc/okvis/build/okvis_time/CMakeFiles/okvis_time.dir
+/home/dnc/okvis/build/okvis_timing/CMakeFiles/okvis_timing.dir
+/home/dnc/okvis/build/okvis_util/CMakeFiles/okvis_util.dir
+/home/dnc/okvis/build/CMakeFiles/opengv_external.dir

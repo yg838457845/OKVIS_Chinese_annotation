@@ -1,0 +1,2 @@
+/usr/bin/ar cr libokvis_frontend.a  CMakeFiles/okvis_frontend.dir/src/Frontend.cpp.o CMakeFiles/okvis_frontend.dir/src/VioKeyframeWindowMatchingAlgorithm.cpp.o CMakeFiles/okvis_frontend.dir/src/stereo_triangulation.cpp.o CMakeFiles/okvis_frontend.dir/src/ProbabilisticStereoTriangulator.cpp.o CMakeFiles/okvis_frontend.dir/src/FrameNoncentralAbsoluteAdapter.cpp.o CMakeFiles/okvis_frontend.dir/src/FrameRelativeAdapter.cpp.o
+/usr/bin/ranlib libokvis_frontend.a

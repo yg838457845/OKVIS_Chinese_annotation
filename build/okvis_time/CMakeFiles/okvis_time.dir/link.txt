@@ -1,0 +1,2 @@
+/usr/bin/ar cr libokvis_time.a  CMakeFiles/okvis_time.dir/src/Time.cpp.o CMakeFiles/okvis_time.dir/src/Duration.cpp.o
+/usr/bin/ranlib libokvis_time.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libokvis_kinematics.a  CMakeFiles/okvis_kinematics.dir/src/dependency-tracker.cc.o
+/usr/bin/ranlib libokvis_kinematics.a

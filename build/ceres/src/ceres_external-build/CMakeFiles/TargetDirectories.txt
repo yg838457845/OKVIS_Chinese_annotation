@@ -1,0 +1,2 @@
+/home/dnc/okvis/build/ceres/src/ceres_external-build/internal/ceres/CMakeFiles/ceres.dir
+/home/dnc/okvis/build/ceres/src/ceres_external-build/CMakeFiles/uninstall.dir

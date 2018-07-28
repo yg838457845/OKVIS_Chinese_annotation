@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>;-DCMAKE_BUILD_TYPE:STRING=Release;-DCMAKE_CXX_FLAGS= -march=native -Wall -std=c++11 -fPIC -mssse3 -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-but-set-variable -Wno-unused-variable -Wno-pedantic;-GUnix Makefiles;/home/dnc/okvis/build/opengv/src/opengv'

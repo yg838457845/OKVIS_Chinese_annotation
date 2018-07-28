@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="okvis_ceres" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\build\;CMake Files\build\brisk\;CMake Files\build\brisk\tmp\;CMake Files\build\ceres\;CMake Files\build\ceres\tmp\;CMake Files\build\opengv\;CMake Files\build\opengv\tmp\;CMake Files\okvis_util\;CMake Files\okvis_kinematics\;CMake Files\okvis_time\;CMake Files\okvis_cv\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;CMake Files\okvis_common\;CMake Files\okvis_ceres\;CMake Files\okvis_timing\;CMake Files\okvis_matcher\;CMake Files\okvis_frontend\;CMake Files\okvis_multisensor_processing\;CMake Files\okvis_multisensor_processing\..\;CMake Files\okvis_multisensor_processing\..\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dnc/okvis/build/okvis_ceres" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="okvis_ceres">
+         <Option output="/home/dnc/okvis/build/okvis_ceres/libokvis_ceres.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dnc/okvis/build/okvis_ceres" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_OPENMP" />
+            <Add directory="/home/dnc/okvis/build/include" />
+            <Add directory="/home/dnc/okvis/okvis_ceres/include" />
+            <Add directory="/home/dnc/okvis/okvis_common/include" />
+            <Add directory="/home/dnc/okvis/okvis_cv/include" />
+            <Add directory="/home/dnc/okvis/okvis_kinematics/include" />
+            <Add directory="/home/dnc/okvis/okvis_time/include" />
+            <Add directory="/home/dnc/okvis/okvis_util/include" />
+            <Add directory="/usr/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 okvis_ceres" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="okvis_ceres/fast">
+         <Option output="/home/dnc/okvis/build/okvis_ceres/libokvis_ceres.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dnc/okvis/build/okvis_ceres" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_OPENMP" />
+            <Add directory="/home/dnc/okvis/build/include" />
+            <Add directory="/home/dnc/okvis/okvis_ceres/include" />
+            <Add directory="/home/dnc/okvis/okvis_common/include" />
+            <Add directory="/home/dnc/okvis/okvis_cv/include" />
+            <Add directory="/home/dnc/okvis/okvis_kinematics/include" />
+            <Add directory="/home/dnc/okvis/okvis_time/include" />
+            <Add directory="/home/dnc/okvis/okvis_util/include" />
+            <Add directory="/usr/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 okvis_ceres/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dnc/okvis/build/okvis_ceres/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/Estimator.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/HomogeneousPointError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/HomogeneousPointLocalParameterization.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/HomogeneousPointParameterBlock.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/IdProvider.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/ImuError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/LocalParamizationAdditionalInterfaces.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/Map.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/MarginalizationError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/PoseError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/PoseLocalParameterization.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/PoseParameterBlock.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/RelativePoseError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/SpeedAndBiasError.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/src/SpeedAndBiasParameterBlock.cpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/include/okvis/Estimator.hpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/include/okvis/ceres/CeresIterationCallback.hpp">
+      </Unit>
+      <Unit filename="/home/dnc/okvis/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindVISensor.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindGlog.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindSuiteSparse.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindCXSparse.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/okvisConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/okvisConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/okvisConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/build/brisk/tmp/brisk_external-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\build\brisk\tmp\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/build/ceres/tmp/ceres_external-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\build\ceres\tmp\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/build/opengv/tmp/opengv_external-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\build\opengv\tmp\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_util\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_util\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_kinematics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_kinematics\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_kinematics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_kinematics\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_time/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_time\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_time/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_time\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_cv\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_cv/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_cv\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_common\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_common\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_ceres\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_ceres/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_ceres\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_timing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_timing\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_timing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_timing\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_matcher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_matcher\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_matcher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_matcher\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_frontend/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_frontend\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_frontend/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_frontend\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_multisensor_processing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_multisensor_processing\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_multisensor_processing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\okvis_multisensor_processing\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_multisensor_processing/../cmake/okvisConfig.hpp.in">
+          <Option virtualFolder="CMake Files\okvis_multisensor_processing\..\cmake\" />
+      </Unit>
+      <Unit filename="/home/dnc/okvis/okvis_multisensor_processing/../cmake/okvisConfig.hpp.in">
+          <Option virtualFolder="CMake Files\okvis_multisensor_processing\..\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

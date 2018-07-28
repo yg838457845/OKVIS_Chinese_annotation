@@ -1,0 +1,2 @@
+/usr/bin/ar cr libokvis_common.a  CMakeFiles/okvis_common.dir/src/VioInterface.cpp.o CMakeFiles/okvis_common.dir/src/VioParametersReader.cpp.o
+/usr/bin/ranlib libokvis_common.a
