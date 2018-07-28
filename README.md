@@ -1,6 +1,7 @@
 README                        {#mainpage}
 ======
 **commentator:** Guang Yang(838457845@qq.com) 
+
 Welcome to OKVIS: Open Keyframe-based Visual-Inertial SLAM. 
 
 This is the Author's implementation of the [1] and [3] with more results in [2].
